@@ -568,73 +568,119 @@ margin: 1.5rem 1rem 5rem 0;
 }
 
 @media (max-width: 991px) {
- .header {
+ /* .header {
       padding: 2rem 3%;
-  }
-  section {
+  } */
+  /* section {
       padding: 10rem 3% 2rem;
-  }
+  } */
 
-  .footer {
+  /* .footer {
       padding: 2rem 3%;
-  }
+  } */
 }
 
 @media (max-width:768px) {
   body{
-    border: 1px solid;
-    width: 100vh;
+    /* border: 1px solid; */
+    width: 100%;
   }
 
   header{ 
-    border: 1px solid;
-    /* width: 100%; */
-    padding: 5px;
-    margin: 0 auto;
+    width: 100%;
+    margin: 0;
+    padding: 0;
     position: fixed;
     z-index: 100;
 }
 
 header ul {
-  border: 1px solid;
-    display: flex;
-    font-size: 0px;
-    margin: 0 auto;
+  /* border: 1px solid; */
+    padding: 0;
+}
+header a {
+  margin: 4px;
+}
+
+.img-slide {
+  /* margin-top: 5rem; */
+  width: 40rem;
+  height: auto;
 }
 
 .slide-content {
-  text-align: left;
-  padding: 4rem 3%;
-  margin: 10px; 
+  text-align: center;
+  padding: 2rem 3%;
+  margin: 0px; 
 }
+
+.logo img {
+  border-radius: 30px;  
+  width: 174px;
+  height: 80px;
+}
+
+.btn-slide button {
+width: 170px;
+height: 74px;
+}
+
+.slide-content p{
+margin-top: -.25rem;
+}
+
 
 .programme {
   padding: 0;
   margin: 0;
+  width: 100%;
 }
 
 .programme-container {
   flex-direction: column-reverse;
-  border: 1px solid red;
-  width: 70%;
+  justify-content: center;
+  margin-top: 3rem;
+  width: 40rem;
 gap: 0;
 }
 
 .bakeli {
-  width: 100%;
+  width: 40rem;
 }
 
 .bakeli-programme {
   display: block;
-  width: 90%;
+  justify-content: center;
+  align-items: center;
   gap: 3rem;
  }
 
  .card-bakeli {
-  border: 1px solid red;
-  grid-template-columns: repeat(2, 2fr  );
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40rem;
  }
 
+ .card-bakeli-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40rem;
+ }
+
+ .competences {
+  max-height: 100px;
+   padding: 5% 10% 10% 10%;
+   display: flex;
+   grid-template-columns: 1fr 1fr;
+   grid-template-rows: 1fr 1fr;
+   gap: 6rem;
+   justify-content: center;
+   align-items: center;
+ }
   .home {
       flex-direction: column;
   }
