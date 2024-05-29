@@ -23,10 +23,12 @@ header ul {
     display: flex;
     justify-content: center;
     align-items: center;
+   
 }
 
 header ul li {
     list-style: none;
+  
 }
 
 header a {
@@ -37,12 +39,14 @@ header a {
    line-height: 21.94px;
    color: #000000;
     margin: 10px;
+    width: 100%;
 }
 
 /* slide */
-#home{
+.slide{
     padding: 0;
     margin: 0;
+    width: 100%;
 }
 
 .img-slide {
@@ -88,6 +92,7 @@ color: #FFFFFF;
 
 .programme {
     padding: 3rem 0.625rem;
+    width: 100%;
 }
 
 .programme-container {
@@ -116,21 +121,19 @@ border: 2px solid #369E8A
     margin-top: 3rem;
 }
 
+.programme-text {
+text-align: center;
+}
 .programme-text h2{
  font-family: Montserrat;
 font-size: 16px;
 font-weight: bold;
 line-height: 19.5px;
 text-align: center;
-width: 174px;
-height: 18px;
-left: 257px;
 }
 
 .programme-container p {
 width: 231px;
-height: 29px;
-top: 1155px;
 font-family: Montserrat;
 font-size: 15px;
 font-weight: 400;
@@ -138,9 +141,10 @@ line-height: 15.85px;
 text-align: center;
 }
 
-/*  */ 
+/* bakeli */ 
 .bakeli {
     background-color: #C4C4C4;
+    width: 100%;
     padding: 40px;
 }
 
@@ -156,6 +160,7 @@ font-weight: 700;
  justify-content: center;
  align-items: center;
  margin: 20px;
+ width: 100%;
  gap: 3rem;
 }
 
@@ -168,29 +173,36 @@ text-align: center;
 
 }
 
-/*  */
+/*  card-programme*/
+
+.card-programme{
+  width: 100%;
+}
+
 .card-bakeli {
-    display: flex;
-  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
     width: 100%;
   }
 
   .card-1 {
-    width: 40%;
+    width: 25%;
     height: 200px;
     display: flex;
     justify-content: center;
+    align-items: center;
     background-color: #83CBCF;
   }
 
   .card-1 img{
-width: 159px;
+width: 50%;
 height: 99px;
-margin-top: 2.5rem;
+margin-top: -2.5rem;
   } 
   
 .card-2 {
-    width: 40%;
+    width: 25%;
     height: 200px;
     display: flex;
     justify-content: center;
@@ -198,13 +210,13 @@ margin-top: 2.5rem;
   }
 
   .card-2 img{
-width: 159px;
+width: 50%;
 height: 99px;
 margin-top: 4rem;
   }
 
 .card-3 {
-    width: 40%;
+    width: 25%;
     height: 200px;
     display: flex;
     justify-content: center;
@@ -212,13 +224,13 @@ margin-top: 4rem;
   }
 
 .card-3 img{
-width: 159px;
+width:50%;
 height: 99px;
 margin-top: 3rem;
   }
 
 .card-4 {
-    width: 40%;
+    width: 25%;
     height: 200px;
     display: flex;
     justify-content: center;
@@ -226,19 +238,13 @@ margin-top: 3rem;
   }
 
 .card-4 img{
-width: 159px;
+width: 50%;
 height: 99px;
 margin-top: 3rem;
   }
 
-  .card-bakeli-2 {
-    display: flex;
-  justify-content: space-between;
-    width: 100%;
-  }
-
   .card1 {
-    width: 40%;
+    width: 25%;
     height: 200px;
     display: flex;
     justify-content: center;
@@ -246,13 +252,13 @@ margin-top: 3rem;
   }
 
   .card1 img{
-width: 159px;
+width: 50%;
 height: 99px;
 margin-top: 2.5rem;
   } 
   
 .card2 {
-    width: 40%;
+    width: 25%;
     height: 200px;
     display: flex;
     justify-content: center;
@@ -260,13 +266,13 @@ margin-top: 2.5rem;
   }
 
   .card2 img{
-width: 159px;
+width: 50%;
 height: 99px;
 margin-top: 4rem;
   }
 
 .card3 {
-    width: 40%;
+    width: 25%;
     height: 200px;
     display: flex;
     justify-content: center;
@@ -274,13 +280,13 @@ margin-top: 4rem;
   }
 
 .card3 img{
-width: 159px;
+width: 50%;
 height: 99px;
 margin-top: 3rem;
   }
 
 .card4 {
-    width: 40%;
+    width: 25%;
     height: 200px;
     display: flex;
     justify-content: center;
@@ -288,15 +294,16 @@ margin-top: 3rem;
   }
 
 .card4 img{
-width: 159px;
+width: 50%;
 height: 99px;
-margin-top: 3rem;
+margin-top: 3rem; 
   }
 
-/* opportunites */
+ /* opportunites  */
 
 .opportunites{
     padding: 40px;
+    width: 100%;
   }
 
 .heading-opportinites {
@@ -336,7 +343,7 @@ text-align: center;
 }
 
 .competences span {
-  font-family: Arial;
+font-family: Arial;
 font-size: 14px;
 font-weight: 700;
 line-height: 18.4px;
@@ -349,7 +356,6 @@ text-align: center;
   background-color: lightgrey;
   border-radius: 10px;
   position: relative;
-  /* margin-top: 20px; */
 }
 
 .competences .ligne::before{
@@ -418,7 +424,7 @@ color: white;
 
 .coach {
   padding: 0% 2% 2% 2%;
-  max-height: 100px;
+  width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -464,6 +470,14 @@ line-height: 20.7px;
 text-align: center;
 }
 
+/* admission */
+.admission{
+  width: 100%;
+}
+.admission-container {
+  width: 100%;
+}
+
 .admission-img{
   text-align: center;
 }
@@ -485,11 +499,12 @@ line-height: 17.07px;
 text-align: center;
   margin: 50px;
   }
-
+/* FOOTER */
   footer {
     font-size: 10px;
     background-color: #C4C4C4;
-    height: 500px;                                                                       
+    height: 500px;   
+    width: 100%;                                                                    
   }
 
 .footer h2{
@@ -563,55 +578,45 @@ font-size: 13px;
 font-weight: 500;
 line-height: 14.65px;
 text-align: center;
-/* margin: 10px; */
 margin: 1.5rem 1rem 5rem 0;
 }
 
 @media (max-width: 991px) {
- /* .header {
-      padding: 2rem 3%;
-  } */
-  /* section {
-      padding: 10rem 3% 2rem;
-  } */
-
-  /* .footer {
-      padding: 2rem 3%;
-  } */
+  section {
+      width: 100%;
+  }
 }
 
 @media (max-width:768px) {
   body{
-    /* border: 1px solid; */
     width: 100%;
   }
 
   header{ 
     width: 100%;
-    margin: 0;
-    padding: 0;
-    position: fixed;
-    z-index: 100;
 }
 
 header ul {
-  /* border: 1px solid; */
-    padding: 0;
+   
+      display: flex;
+      justify-content: center;
+      align-items: center;
+     flex-wrap: wrap;
 }
 header a {
   margin: 4px;
 }
 
+.slide{
+  width: 100%;
+}
+
 .img-slide {
-  /* margin-top: 5rem; */
-  width: 40rem;
-  height: auto;
+  width: 100%;
 }
 
 .slide-content {
   text-align: center;
-  padding: 2rem 3%;
-  margin: 0px; 
 }
 
 .logo img {
@@ -625,10 +630,6 @@ width: 170px;
 height: 74px;
 }
 
-.slide-content p{
-margin-top: -.25rem;
-}
-
 
 .programme {
   padding: 0;
@@ -637,15 +638,21 @@ margin-top: -.25rem;
 }
 
 .programme-container {
-  flex-direction: column-reverse;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  margin-top: 3rem;
-  width: 40rem;
+  align-items: center;
+  margin-top: 1rem;
+  width: 100%;
 gap: 0;
 }
 
+.programme-text {
+  margin-left: -2rem;
+}
+
 .bakeli {
-  width: 40rem;
+  width: 100%;
 }
 
 .bakeli-programme {
@@ -657,33 +664,95 @@ gap: 0;
 
  .card-bakeli {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 40rem;
- }
+  flex-wrap: wrap;
+    width: 100%;
+  }
 
- .card-bakeli-2 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 40rem;
- }
+  .card-1 {
+    width: 50%;
+  }
+ 
+  .card-1 img{
+    width: 50%;
+  }
+
+  .card-2 {
+    width: 50%;
+  }
+  .card-3 {
+    width: 50%;
+  }
+  .card-4 {
+    width: 50%;
+  }
+  .card1{
+    width: 50%;
+  } 
+  .card2{
+    width: 50%;
+  }
+  .card3{
+    width: 50%;
+  }
+  .card4{
+    width: 50%;
+  }
+
+  .bakeli-team{
+    width: 100%;
+    height: 1350px;
+  }
+
+  .coach {
+    padding: 0% 2% 2% 2%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  .admission{
+    width: 100%;
+  }
+  .admission-container {
+    width: 100%;
+  }  
+
+  .admission-text p{
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .footer {
+    width: 100%;
+  }
+
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+   }
+
+.opportunites{
+  width: 100%;
+}
+.css80 {
+  display: none;
+}
+
+/* .oppor {
+  margin-top: -2.3rem;
+}
+
+.oppor90 {
+  margin-top: -1.2rem;
+} */
 
  .competences {
   max-height: 100px;
-   padding: 5% 10% 10% 10%;
-   display: flex;
-   grid-template-columns: 1fr 1fr;
-   grid-template-rows: 1fr 1fr;
-   gap: 6rem;
-   justify-content: center;
-   align-items: center;
+   gap: 20px;
  }
-  .home {
-      flex-direction: column;
-  }
-
 
 }
