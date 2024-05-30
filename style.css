@@ -105,6 +105,13 @@ color: #FFFFFF;
     width: 883.11px;
 }
 
+.progamme-contenu  {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .elipse1  {
 position: relative;
 width: 149.11px;
@@ -196,7 +203,7 @@ text-align: center;
   }
 
   .card-1 img{
-width: 50%;
+width: 40%;
 height: 99px;
 margin-top: -2.5rem;
   } 
@@ -210,7 +217,7 @@ margin-top: -2.5rem;
   }
 
   .card-2 img{
-width: 50%;
+width: 40%;
 height: 99px;
 margin-top: 4rem;
   }
@@ -224,7 +231,7 @@ margin-top: 4rem;
   }
 
 .card-3 img{
-width:50%;
+width:40%;
 height: 99px;
 margin-top: 3rem;
   }
@@ -238,7 +245,7 @@ margin-top: 3rem;
   }
 
 .card-4 img{
-width: 50%;
+width: 40%;
 height: 99px;
 margin-top: 3rem;
   }
@@ -252,7 +259,7 @@ margin-top: 3rem;
   }
 
   .card1 img{
-width: 50%;
+width: 40%;
 height: 99px;
 margin-top: 2.5rem;
   } 
@@ -266,7 +273,7 @@ margin-top: 2.5rem;
   }
 
   .card2 img{
-width: 50%;
+width: 40%;
 height: 99px;
 margin-top: 4rem;
   }
@@ -280,7 +287,7 @@ margin-top: 4rem;
   }
 
 .card3 img{
-width: 50%;
+width: 40%;
 height: 99px;
 margin-top: 3rem;
   }
@@ -294,7 +301,7 @@ margin-top: 3rem;
   }
 
 .card4 img{
-width: 50%;
+width: 40%;
 height: 99px;
 margin-top: 3rem; 
   }
