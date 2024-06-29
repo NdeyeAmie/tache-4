@@ -128,26 +128,31 @@ border: 2px solid #369E8A
     bottom: 0;
     margin-left: 3rem;
     margin-top: 3rem;
+    object-fit: contain;
 }
 
 .programme-text {
 text-align: center;
+
 }
 .programme-text h2{
  font-family: Montserrat;
 font-size: 16px;
 font-weight: bold;
-line-height: 19.5px;
-text-align: center;
+max-width: 200px;
+margin-top: 0.1rem;
+/* line-height: 19.5px; */
+/* text-align: center; */
 }
 
 .programme-container p {
-width: 231px;
+  max-width: 200px;
+/* width: 231px; */
 font-family: Montserrat;
 font-size: 15px;
 font-weight: 400;
 line-height: 15.85px;
-text-align: center;
+/* text-align: center; */
 }
 
 /* bakeli */ 
@@ -501,7 +506,7 @@ text-align: center;
 
 .admission-img{
   text-align: center;
-  object-fit: contain;
+   object-fit: contain;
 }
 
 .admission-text p{
@@ -670,7 +675,7 @@ gap: 0;
 }
 
 .programme-text {
-  margin-left: -2rem;
+  /* margin-left: -2rem; */
 }
 
 .bakeli {
